@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Template HTML sumber (bukan kode aplikasi).
+    "intrio-interior-design-website-template-*/**",
   ]),
 ]);
 
